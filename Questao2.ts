@@ -5,6 +5,10 @@ function max(x: number, y:number): number {
 
 // Retornar a subsequência de números de um array que constitui a maior soma
 function maxSubArray(nums: number[]): number {
+    // Caso o array seja de só um número
+    if (nums.length == 1) {
+        return nums[0];
+    }
 
     let meio: number = Math.floor((nums.length - 1) / 2)
 
