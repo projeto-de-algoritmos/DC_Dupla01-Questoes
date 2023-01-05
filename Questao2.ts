@@ -22,6 +22,18 @@ function maxSubArray(nums: number[]): number {
         }
     }
 
+        
+    let maxDireita: number = Number.MIN_SAFE_INTEGER;
+    soma = 0;
+    
+    // Maior soma do array da direita
+    for (let i: number = 0; i < arrayDireita.length; i++) {
+        soma += arrayDireita[i];
+        if(soma > maxDireita){
+            maxDireita = soma;
+        }
+    }
+
     return maxEsquerda;
 }
 
