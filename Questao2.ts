@@ -33,8 +33,10 @@ function maxSubArray(nums: number[]): number {
             maxDireita = soma;
         }
     }
+    
+    let maxEsquerdaDireita = max(maxSubArray(arrayEsquerda), maxSubArray(arrayDireita));
 
-    return maxEsquerda;
+    return max(maxEsquerdaDireita, maxEsquerda + maxDireita);;
 }
 
 let nums: number[] = [-2, -1];
