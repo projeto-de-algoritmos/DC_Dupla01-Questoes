@@ -1,3 +1,8 @@
+// Retorna o maior número entre 2
+function max(x: number, y:number): number {
+    return ((x > y) ? x : y);
+}
+
 // Retornar a subsequência de números de um array que constitui a maior soma
 function maxSubArray(nums: number[]): number {
 
