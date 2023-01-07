@@ -25,12 +25,10 @@ An array *nums* of length *n* is **beautiful** if:
 *nums* is a permutation of the integers in the range *[1, n]*.
 For every *0 <= i < j < n*, there is no index *k* with *i < k < j* where *2 * nums[k] == nums[i] + nums[j]*.
 Given the integer *n*, return any **beautiful** *array* nums of length *n*. There will be at least one valid answer for the given *n*.
-### Questão 4: 3. Median of Two Sorted Arrays
+### Questão 4: 315. Count of Smaller Numbers After Self
 #### Dificuldade
 Hard
 #### Link para a questão
-https://leetcode.com/problems/median-of-two-sorted-arrays/
+https://leetcode.com/problems/count-of-smaller-numbers-after-self/
 #### Enunciado
-Given two sorted arrays nums1 and nums2 of size m and n respectively, return the median of the two sorted arrays.
-
-**The overall run time complexity should be *O(log (m+n))*.**
+Given an integer array nums, return an integer array counts where counts[i] is the number of smaller elements to the right of nums[i].
