@@ -1,4 +1,6 @@
 # DC_Dupla01-Questoes
+## Vídeo de apresentação
+https://unbbr.sharepoint.com/:v:/s/Dupla1-PA/EUW8V9K55O1Egoll5Tdvt9gBeFfS8AegwL7Uu4NNGJyXvw?e=rLaYI9
 ## Questões escolhidas:
 ### Questão 1: 108.Convert Sorted Array to Binary Search Tree
 #### Dificuldade
