@@ -1,4 +1,4 @@
-let solucao: number[] = [];
+let solucao: number[];
 
 function buscaInsereBinario(nums: number[], l: number, r: number, num: number): void {
 
@@ -25,20 +25,19 @@ function buscaInsereBinario(nums: number[], l: number, r: number, num: number): 
     }
 
     return;
-};
+}
 
 function countSmaller(nums: number[]): number[] {
     if(nums.length <= 1) return [0];
     
     let tmp: number[] = [];
+    solucao = [0];
 
     // Inserir o elmento mais à direita no array temporário
     tmp[0] = nums[nums.length-1];
-    // Adicionar a quantidade 0 para o elemento mais à direita do array nums
-    solucao.push(0);
 
     for (let i = nums.length - 2; i >= 0; i--) {
         buscaInsereBinario(tmp, 0, tmp.length - 1, nums[i]);
     }
     return solucao;
-};
+}
