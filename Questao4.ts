@@ -14,7 +14,7 @@ function buscaInsereBinario(nums: number[], l: number, r: number, num: number): 
     }
 
     // Encontra o meio do array
-    const meio: number = Math.floor(r + l / 2);
+    const meio: number = Math.floor((r + l) / 2);
     
     if (num <= nums[meio]) {
         // Caso seja menor que o número no meio do array
